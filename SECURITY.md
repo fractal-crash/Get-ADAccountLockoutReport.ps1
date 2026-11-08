@@ -1,23 +1,8 @@
 # Política de Seguridad
 
-## Versiones compatibles
+## Reportar incidentes de seguridad
 
-Actualmente, las siguientes versiones del proyecto reciben actualizaciones y correcciones de seguridad:
-
-| Versión | Compatible |
-| :--- | :--- |
-| 1.0.x | Sí |
-
-## Reportar una vulnerabilidad
-
-La seguridad de las herramientas de auditoría es primordial. Si descubres una vulnerabilidad de seguridad o un falso negativo crítico en las comprobaciones realizadas por este script:
-
-1. **No abras un Issue público** describiendo la vulnerabilidad.
-2. Abre un informe de seguridad privado a través de la pestaña **Security > Advisories** en GitHub.
-3. Incluye los siguientes detalles:
-   - Versión de Windows Server y edición donde se reprodujo el problema.
-   - Versión de PowerShell utilizada (`$PSVersionTable.PSVersion`).
-   - Descripción detallada del comportamiento observado frente al esperado.
-   - Pasos para reproducir o extracto relevante de `Diagnostico.txt` (asegurándote de sanitizar nombres de host o IPs sensibles).
-
-Agradecemos tus contribuciones responsables para mantener la herramienta confiable y segura.
+Si identificas algún problema de seguridad, exposición indebida o mejora técnica en el script:
+1. No abras un issue público.
+2. Abre un reporte privado en **Security > Advisories** en GitHub.
+3. Proporciona la versión de Windows Server, PowerShell y detalles sanitizados del evento.
